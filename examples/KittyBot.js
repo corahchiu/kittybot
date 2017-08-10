@@ -25,7 +25,7 @@ bot.on('text', function (msg) {
 bot.on(['/start', '/help'], function (msg) {
 
     return bot.sendMessage(msg.chat.id,
-        '😺 Use commands: /kitty, /kittygif and /about', {replyMarkup}
+        '😺 Looking at cat pictures does wonders. Research says that looking at cat pictures or videos on the internet boosts energy and positive emotions. So when you are feeling blue, generate a random cat picture or gif with this bot by typing /kitty or /kittygif and cheer up!', {replyMarkup}
     );
 
 });
